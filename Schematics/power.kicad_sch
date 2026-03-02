@@ -1815,7 +1815,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C113936"
 			(at 74.93 102.87 90)
 			(effects
 				(font
@@ -2092,7 +2092,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C435835"
 			(at 155.956 121.412 0)
 			(effects
 				(font
@@ -2970,6 +2970,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C98192"
+			(at 172.72 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "493c82f8-fe2d-484d-90ba-312ebac9b0cd")
 		)
@@ -3040,7 +3049,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C113936"
 			(at 92.71 102.87 90)
 			(effects
 				(font
@@ -3648,6 +3657,15 @@
 			)
 		)
 		(property "Purchase-URL" ""
+			(at 118.11 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C49678"
 			(at 118.11 113.03 0)
 			(effects
 				(font

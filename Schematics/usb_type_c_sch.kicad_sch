@@ -1790,6 +1790,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C165948"
+			(at 125.73 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "B12"
 			(uuid "69e6e135-6643-4c59-9d2b-0114e152e461")
 		)

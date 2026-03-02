@@ -1264,6 +1264,22 @@
 		(color 0 0 0 0)
 		(uuid "b452b765-a040-4969-a80d-016d29bf4c50")
 	)
+	(junction
+		(at 162.56 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dd8e6df4-f2a8-4234-8f46-8906cde832cd")
+	)
+	(wire
+		(pts
+			(xy 162.56 109.22) (xy 162.56 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1415e14e-dae5-428d-a13b-0103f228f1fb")
+	)
 	(wire
 		(pts
 			(xy 118.11 106.68) (xy 130.81 106.68)
@@ -1286,7 +1302,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 106.68) (xy 172.72 106.68)
+			(xy 157.48 106.68) (xy 162.56 106.68)
 		)
 		(stroke
 			(width 0)
@@ -1323,6 +1339,16 @@
 			(type default)
 		)
 		(uuid "4193552b-1cd1-4c6f-a6f9-3749eb25f9c3")
+	)
+	(wire
+		(pts
+			(xy 162.56 106.68) (xy 172.72 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "425be68a-fb70-41bc-b823-db4cd3bcc261")
 	)
 	(wire
 		(pts
@@ -1416,6 +1442,16 @@
 	)
 	(wire
 		(pts
+			(xy 97.79 125.73) (xy 97.79 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a71e2939-cedf-4fea-859a-fd72c1ff2f53")
+	)
+	(wire
+		(pts
 			(xy 161.29 55.88) (xy 166.37 55.88)
 		)
 		(stroke
@@ -1436,7 +1472,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 109.22) (xy 161.29 109.22)
+			(xy 157.48 109.22) (xy 162.56 109.22)
 		)
 		(stroke
 			(width 0)
@@ -1861,73 +1897,6 @@
 			(project "CameraBoard"
 				(path "/65068a32-f105-4204-b50e-234054c5a6d0/480e1df8-14aa-40df-bf4b-17bab0b9775f"
 					(reference "D2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 161.29 109.22 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2af7f378-7371-499e-9bf8-eb7a9acf2715")
-		(property "Reference" "#PWR045"
-			(at 157.48 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 165.1 109.2199 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 161.29 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 161.29 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 161.29 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "da588bbd-d6fc-4aee-a9fd-a6d6c502b7f4")
-		)
-		(instances
-			(project "CameraBoard"
-				(path "/65068a32-f105-4204-b50e-234054c5a6d0/480e1df8-14aa-40df-bf4b-17bab0b9775f"
-					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -2902,7 +2871,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7u"
+		(property "Value" "10u"
 			(at 176.53 114.2999 0)
 			(effects
 				(font
@@ -3371,6 +3340,139 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 97.79 123.19 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c46833e1-c4b8-4733-bbad-8ab2c2676b32")
+		(property "Reference" "#PWR036"
+			(at 97.79 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 97.79 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 97.79 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 97.79 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 97.79 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e458187a-370f-4b2d-ae72-06e217e21a73")
+		)
+		(instances
+			(project ""
+				(path "/65068a32-f105-4204-b50e-234054c5a6d0/480e1df8-14aa-40df-bf4b-17bab0b9775f"
+					(reference "#PWR036")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 97.79 125.73 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d7d08e04-34bb-471c-b7a7-931fa2b1c981")
+		(property "Reference" "#FLG05"
+			(at 99.695 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 101.6 125.7299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 97.79 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 97.79 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 97.79 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ffc77751-4333-4d78-a6be-394852575d4b")
+		)
+		(instances
+			(project "CameraBoard"
+				(path "/65068a32-f105-4204-b50e-234054c5a6d0/480e1df8-14aa-40df-bf4b-17bab0b9775f"
+					(reference "#FLG05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 129.54 55.88 270)
 		(unit 1)
@@ -3455,7 +3557,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1u"
+		(property "Value" "100nf"
 			(at 121.92 114.2999 0)
 			(effects
 				(font

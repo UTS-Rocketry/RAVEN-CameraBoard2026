@@ -1,6 +1,6 @@
-# CameraBoard – UTS Rocketry Avionics
+# Raven - CameraBoard – UTS Rocketry Avionics
 
-![capture-2026-03-04T03_17_57 773Z](https://github.com/user-attachments/assets/6df3cfd5-47a1-416c-8c4c-f26de1f745bc) 
+<img width="1983" height="3967" alt="4c156990d7d54d2f9e3c4830885b3942_T" src="https://github.com/user-attachments/assets/70c98c76-e38a-4b23-818e-86021ef153a1" />
 
 ## Version 1.0
 High-reliability camera control and downlink board built around the **STM32F405RGT6**, designed for UTS Rocketry’s flight avionics stack.  

@@ -1223,261 +1223,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "LED:NeoPixel_THT"
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 5.08 5.715 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify right bottom)
-				)
-			)
-			(property "Value" "NeoPixel_THT"
-				(at 1.27 -5.715 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Footprint" ""
-				(at 1.27 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.adafruit.com/product/1938"
-				(at 2.54 -9.525 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Description" "RGB LED with integrated controller, 5mm/8mm LED package"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "RGB LED NeoPixel addressable"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "LED*D5.0mm* LED*D8.0mm*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "NeoPixel_THT_0_0"
-				(text "RGB"
-					(at 2.286 -4.191 0)
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-			)
-			(symbol "NeoPixel_THT_0_1"
-				(polyline
-					(pts
-						(xy 1.27 -2.54) (xy 1.778 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -3.556) (xy 1.778 -3.556)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.286 -1.524) (xy 1.27 -2.54) (xy 1.27 -2.032)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.286 -2.54) (xy 1.27 -3.556) (xy 1.27 -3.048)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.683 -1.016) (xy 3.683 -3.556) (xy 3.683 -4.064)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 4.699 -1.524) (xy 2.667 -1.524) (xy 3.683 -3.556) (xy 4.699 -1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 4.699 -3.556) (xy 2.667 -3.556)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 5.08 5.08)
-					(end -5.08 -5.08)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "NeoPixel_THT_1_1"
-				(pin input line
-					(at -7.62 0 0)
-					(length 2.54)
-					(name "DIN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 7.62 270)
-					(length 2.54)
-					(name "VDD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -7.62 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "DOUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "MCU_ST_STM32F4:STM32F405RGTx"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2980,6 +2725,358 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "NeoPixel_THT_1"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D5"
+				(at -11.43 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "ws2812b"
+				(at -11.43 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+				(at -61.976 5.588 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.adafruit.com/product/1938"
+				(at -64.008 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "RGB LED with integrated controller, 5mm/8mm LED package"
+				(at -37.338 8.382 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description_1" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MF" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MP" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Package" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Price" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Purchase-URL" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC" "C114586"
+				(at -29.972 1.016 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MANUFACTURER" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MAXIMUM_PACKAGE_HEIGHT" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "PARTREV" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "STANDARD" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "RGB LED NeoPixel addressable"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LED*D5.0mm* LED*D8.0mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "NeoPixel_THT_1_0_0"
+				(text "RGB"
+					(at 2.286 -4.191 0)
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(symbol "NeoPixel_THT_1_0_1"
+				(rectangle
+					(start -5.08 5.08)
+					(end 8.89 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 1.778 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -3.556) (xy 1.778 -3.556)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 -1.524) (xy 1.27 -2.54) (xy 1.27 -2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 -2.54) (xy 1.27 -3.556) (xy 1.27 -3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.683 -1.016) (xy 3.683 -3.556) (xy 3.683 -4.064)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.699 -1.524) (xy 2.667 -1.524) (xy 3.683 -3.556) (xy 4.699 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.699 -3.556) (xy 2.667 -3.556)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "NeoPixel_THT_1_1_1"
+				(pin power_in line
+					(at 0 7.62 270)
+					(length 2.54)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "VSS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 11.43 2.54 180)
+					(length 2.54)
+					(name "DIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 11.43 0 180)
+					(length 2.54)
+					(name "DOUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Switch:SW_Push_Dual"
 			(pin_names
 				(offset 1.016)
@@ -3760,7 +3857,7 @@
 	)
 	(rectangle
 		(start 16.51 119.38)
-		(end 66.04 151.13)
+		(end 66.04 139.7)
 		(stroke
 			(width 0)
 			(type default)
@@ -3769,6 +3866,18 @@
 			(type none)
 		)
 		(uuid 6d19b259-d990-4acb-a08f-d590ec23dba8)
+	)
+	(rectangle
+		(start 16.51 144.78)
+		(end 88.9 170.18)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 74c5bd3f-ea91-4797-83e9-7657db8877b0)
 	)
 	(rectangle
 		(start 200.66 77.47)
@@ -3781,18 +3890,6 @@
 			(type none)
 		)
 		(uuid ca2d6feb-1702-4107-aec8-371d2232148a)
-	)
-	(rectangle
-		(start 19.05 153.67)
-		(end 91.44 179.07)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid f99ff8c2-0a97-48be-88ad-a1fc2912d2f0)
 	)
 	(junction
 		(at 153.67 24.13)
@@ -3879,22 +3976,10 @@
 		(uuid "968c7d89-bab4-4254-bbc5-ff860bc8108e")
 	)
 	(junction
-		(at 31.75 157.48)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a65db9ea-4dfc-4df3-b3be-ae62c078f04f")
-	)
-	(junction
 		(at 135.89 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c5154f1b-b0e0-4d81-8968-86631781230e")
-	)
-	(junction
-		(at 31.75 172.72)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c5dde99c-5611-4fbb-99c0-6a841d41f455")
 	)
 	(junction
 		(at 163.83 38.1)
@@ -4063,6 +4148,10 @@
 		(uuid "b324e90a-4040-4974-9fc1-417ccb57e3c4")
 	)
 	(no_connect
+		(at 59.69 160.02)
+		(uuid "c4fb5b33-a94f-4d1f-bef7-84a3706c9858")
+	)
+	(no_connect
 		(at 167.64 142.24)
 		(uuid "c5246330-75ad-40c4-a491-4d51be444d3f")
 	)
@@ -4093,10 +4182,6 @@
 	(no_connect
 		(at 127 121.92)
 		(uuid "f89471d0-bc77-41a9-8e76-3eac9307b634")
-	)
-	(no_connect
-		(at 39.37 165.1)
-		(uuid "f9ff7eb0-5462-4e13-932b-e00e6cada8d9")
 	)
 	(no_connect
 		(at 33.02 100.33)
@@ -4169,6 +4254,16 @@
 			(type default)
 		)
 		(uuid "13bff805-1b8b-4036-828e-817c911c68c0")
+	)
+	(wire
+		(pts
+			(xy 48.26 148.59) (xy 48.26 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1409923e-d922-40a6-a6b0-4c0f80c1e616")
 	)
 	(wire
 		(pts
@@ -4282,16 +4377,6 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 172.72) (xy 31.75 172.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2ef4c372-e44c-4636-a6fe-273941f0c6a8")
-	)
-	(wire
-		(pts
 			(xy 123.19 91.44) (xy 127 91.44)
 		)
 		(stroke
@@ -4349,16 +4434,6 @@
 			(type default)
 		)
 		(uuid "3345dbf5-b05f-4708-ab41-b08323767b0e")
-	)
-	(wire
-		(pts
-			(xy 31.75 157.48) (xy 46.99 157.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "37296b8b-6f78-454c-8a0e-cb062523faed")
 	)
 	(wire
 		(pts
@@ -4432,16 +4507,6 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 157.48) (xy 31.75 157.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4bb1e5e3-54d3-418c-81cf-6fb3913d2bbe")
-	)
-	(wire
-		(pts
 			(xy 31.75 68.58) (xy 33.02 68.58)
 		)
 		(stroke
@@ -4452,16 +4517,6 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 172.72) (xy 46.99 172.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "53dbf51c-5331-4eee-b748-1c4eb56e3ba1")
-	)
-	(wire
-		(pts
 			(xy 144.78 49.53) (xy 144.78 71.12)
 		)
 		(stroke
@@ -4469,16 +4524,6 @@
 			(type default)
 		)
 		(uuid "545b166d-19c9-4344-ae3e-13534a7551d3")
-	)
-	(wire
-		(pts
-			(xy 76.2 165.1) (xy 73.66 165.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "56d3a3e4-3b40-475f-aebe-7cee28288fed")
 	)
 	(wire
 		(pts
@@ -4532,16 +4577,6 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 157.48) (xy 31.75 161.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6268dfa3-c725-46c5-9c64-10ddefb16d6c")
-	)
-	(wire
-		(pts
 			(xy 123.19 49.53) (xy 128.27 49.53)
 		)
 		(stroke
@@ -4582,7 +4617,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 143.51) (xy 49.53 143.51)
+			(xy 52.07 132.08) (xy 49.53 132.08)
 		)
 		(stroke
 			(width 0)
@@ -4652,16 +4687,6 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 168.91) (xy 31.75 172.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7821d03b-41e1-4ad4-b45b-1f5c10ec74f6")
-	)
-	(wire
-		(pts
 			(xy 167.64 109.22) (xy 171.45 109.22)
 		)
 		(stroke
@@ -4669,6 +4694,16 @@
 			(type default)
 		)
 		(uuid "79f1dda9-3aa4-4b5e-95cc-469e2fdd3713")
+	)
+	(wire
+		(pts
+			(xy 69.85 157.48) (xy 59.69 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a760709-e8a0-4288-8be8-88f8d6092e94")
 	)
 	(wire
 		(pts
@@ -4882,6 +4917,16 @@
 	)
 	(wire
 		(pts
+			(xy 39.37 167.64) (xy 48.26 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad39f9c7-065f-4061-93f1-d5a21e1f0854")
+	)
+	(wire
+		(pts
 			(xy 147.32 167.64) (xy 147.32 172.72)
 		)
 		(stroke
@@ -4912,7 +4957,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 143.51) (xy 41.91 143.51)
+			(xy 39.37 132.08) (xy 41.91 132.08)
 		)
 		(stroke
 			(width 0)
@@ -4942,7 +4987,17 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 143.51) (xy 31.75 143.51)
+			(xy 35.56 148.59) (xy 48.26 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0c6278c-7a3f-4e08-b6e7-b8b611bf2b90")
+	)
+	(wire
+		(pts
+			(xy 27.94 132.08) (xy 31.75 132.08)
 		)
 		(stroke
 			(width 0)
@@ -4969,6 +5024,16 @@
 			(type default)
 		)
 		(uuid "d877e6bd-4a1e-4382-8972-bd073bb42fb8")
+	)
+	(wire
+		(pts
+			(xy 69.85 149.86) (xy 69.85 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d89eb102-5051-4951-83fe-3710c2d98a5c")
 	)
 	(wire
 		(pts
@@ -5019,16 +5084,6 @@
 			(type default)
 		)
 		(uuid "f7793031-c44e-4b68-95d6-880a2b23d253")
-	)
-	(wire
-		(pts
-			(xy 54.61 165.1) (xy 66.04 165.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f8eff337-47f4-4dbb-9b62-e6fcd585f741")
 	)
 	(wire
 		(pts
@@ -5140,16 +5195,6 @@
 		)
 		(uuid "70395849-c62f-4d51-b48e-232a0e50b02e")
 	)
-	(label "RGB_DATA"
-		(at 76.2 165.1 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "73ccbae1-9789-4db8-bb2f-8f115723612d")
-	)
 	(label "BOOT0"
 		(at 123.19 83.82 180)
 		(effects
@@ -5189,6 +5234,16 @@
 			(justify right bottom)
 		)
 		(uuid "f7ab1c24-dc5b-4e26-bf94-628a287c56c8")
+	)
+	(label "RGB_DATA"
+		(at 69.85 149.86 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fe3c3aac-fdd2-479f-b7a5-d30f42736e71")
 	)
 	(hierarchical_label "CAN_RX_2"
 		(shape input)
@@ -5424,7 +5479,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 27.94 143.51 270)
+		(at 27.94 132.08 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5433,7 +5488,7 @@
 		(fields_autoplaced yes)
 		(uuid "153f0df8-15ff-4e00-bd13-ac3d1a58f950")
 		(property "Reference" "#PWR04"
-			(at 21.59 143.51 0)
+			(at 21.59 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5442,7 +5497,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 24.13 143.5099 90)
+			(at 24.13 132.0799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5451,7 +5506,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 27.94 143.51 0)
+			(at 27.94 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5460,7 +5515,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 27.94 143.51 0)
+			(at 27.94 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5469,7 +5524,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 27.94 143.51 0)
+			(at 27.94 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6136,7 +6191,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 35.56 143.51 0)
+		(at 35.56 132.08 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6145,7 +6200,7 @@
 		(fields_autoplaced yes)
 		(uuid "3bc266ca-f7c6-40fe-9d20-32d21965d860")
 		(property "Reference" "PowerLED1"
-			(at 33.9725 137.16 0)
+			(at 33.9725 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6153,7 +6208,7 @@
 			)
 		)
 		(property "Value" "RLED"
-			(at 33.9725 139.7 0)
+			(at 33.9725 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6161,7 +6216,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
-			(at 35.56 143.51 0)
+			(at 35.56 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6170,7 +6225,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 35.56 143.51 0)
+			(at 35.56 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6179,7 +6234,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 35.56 143.51 0)
+			(at 35.56 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6188,7 +6243,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 35.56 143.51 0)
+			(at 35.56 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6197,7 +6252,7 @@
 			)
 		)
 		(property "LCSC" "C965799"
-			(at 35.56 143.51 0)
+			(at 35.56 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6802,6 +6857,181 @@
 		)
 	)
 	(symbol
+		(lib_name "NeoPixel_THT_1")
+		(lib_id "LED:NeoPixel_THT")
+		(at 48.26 160.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "55736b20-8007-4929-b424-f728c41f97a5")
+		(property "Reference" "D5"
+			(at 36.83 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ws2812b"
+			(at 36.83 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+			(at -13.716 154.432 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.adafruit.com/product/1938"
+			(at -15.748 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller, 5mm/8mm LED package"
+			(at 10.922 151.638 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description_1" ""
+			(at 48.26 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" ""
+			(at 48.26 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" ""
+			(at 48.26 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
+			(at 48.26 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 48.26 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
+			(at 48.26 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C114586"
+			(at 18.288 159.004 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 48.26 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 48.26 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 48.26 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 48.26 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "862b5e9c-d670-43a8-81da-61c37f20deb3")
+		)
+		(pin "2"
+			(uuid "9b207757-12f5-451c-b7ba-356073733c0a")
+		)
+		(pin "1"
+			(uuid "af6662fb-5457-4321-a184-0a11767137e9")
+		)
+		(pin "2"
+			(uuid "c6121a0f-a1c8-4ece-8459-6493257998b4")
+		)
+		(instances
+			(project "CameraBoard"
+				(path "/65068a32-f105-4204-b50e-234054c5a6d0/5e494e8c-589b-4110-874f-f4b8b9240b86"
+					(reference "D5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 38.1 53.34 90)
 		(unit 1)
@@ -7009,91 +7239,6 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:NeoPixel_THT")
-		(at 46.99 165.1 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6e7a2d47-3085-41fd-bf5b-b110a26f1906")
-		(property "Reference" "D1"
-			(at 59.69 159.6546 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "NeoPixel_THT"
-			(at 59.69 162.1946 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_Kingbright_AAA3528ESGCT"
-			(at 45.72 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.adafruit.com/product/1938"
-			(at 44.45 155.575 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "RGB LED with integrated controller, 5mm/8mm LED package"
-			(at 46.99 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C2827321"
-			(at 46.99 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "d024f572-9fad-4fcf-a442-28539e922336")
-		)
-		(pin "3"
-			(uuid "5f06058c-54f8-41a3-b06f-ee7b39e181f5")
-		)
-		(pin "1"
-			(uuid "ba3c8a92-602b-4c73-b21a-4fef28ed970b")
-		)
-		(pin "2"
-			(uuid "18fef583-3212-4fa6-a66b-4e7eb78556e7")
-		)
-		(instances
-			(project ""
-				(path "/65068a32-f105-4204-b50e-234054c5a6d0/5e494e8c-589b-4110-874f-f4b8b9240b86"
-					(reference "D1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3.3V")
 		(at 172.72 38.1 270)
 		(unit 1)
@@ -7293,7 +7438,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 52.07 143.51 270)
+		(at 52.07 132.08 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7302,7 +7447,7 @@
 		(fields_autoplaced yes)
 		(uuid "7b657edd-a129-4eb5-889b-b17a90a42d46")
 		(property "Reference" "#PWR08"
-			(at 48.26 143.51 0)
+			(at 48.26 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7311,7 +7456,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 55.88 143.5099 90)
+			(at 55.88 132.0799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7320,7 +7465,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 52.07 143.51 0)
+			(at 52.07 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7329,7 +7474,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 52.07 143.51 0)
+			(at 52.07 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7338,7 +7483,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 52.07 143.51 0)
+			(at 52.07 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7430,73 +7575,6 @@
 			(project "cameraBoardSchematic"
 				(path "/65068a32-f105-4204-b50e-234054c5a6d0/5e494e8c-589b-4110-874f-f4b8b9240b86"
 					(reference "FB1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 29.21 157.48 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "82fd277c-9bb6-4f90-8bac-b907e30cd545")
-		(property "Reference" "#PWR05"
-			(at 22.86 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 25.4 157.4799 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 29.21 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 29.21 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 29.21 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "efdea876-d078-4782-8a6c-43f9dca99177")
-		)
-		(instances
-			(project ""
-				(path "/65068a32-f105-4204-b50e-234054c5a6d0/5e494e8c-589b-4110-874f-f4b8b9240b86"
-					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -7795,83 +7873,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 69.85 165.1 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "89b42ab4-026f-4569-9f82-3d9d9e7c6508")
-		(property "Reference" "R4"
-			(at 69.85 158.75 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "330r"
-			(at 69.85 161.29 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 69.85 166.878 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 69.85 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 69.85 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C17630"
-			(at 69.85 165.1 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1a4c0480-c0d2-4732-ab93-6dd8df511a98")
-		)
-		(pin "2"
-			(uuid "66e43c60-3cb1-455e-836a-4e206899f7d0")
-		)
-		(instances
-			(project ""
-				(path "/65068a32-f105-4204-b50e-234054c5a6d0/5e494e8c-589b-4110-874f-f4b8b9240b86"
-					(reference "R4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 118.11 45.72 270)
 		(unit 1)
@@ -8118,6 +8119,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 35.56 148.59 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "94a96756-5563-49e3-beaa-c034ea298be9")
+		(property "Reference" "#PWR061"
+			(at 39.37 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 31.75 148.5899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 35.56 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 35.56 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 35.56 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c51619d4-274f-41c8-82b9-614e967f3f31")
+		)
+		(instances
+			(project "CameraBoard"
+				(path "/65068a32-f105-4204-b50e-234054c5a6d0/5e494e8c-589b-4110-874f-f4b8b9240b86"
+					(reference "#PWR061")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 102.87 156.21 0)
 		(unit 1)
@@ -8191,85 +8258,6 @@
 			(project "cameraBoardSchematic"
 				(path "/65068a32-f105-4204-b50e-234054c5a6d0/5e494e8c-589b-4110-874f-f4b8b9240b86"
 					(reference "C3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 31.75 165.1 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9c8ce0ec-06bd-4d02-a0d1-bf165d64c613")
-		(property "Reference" "C1"
-			(at 35.56 163.8299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100nf"
-			(at 35.56 166.3699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 32.7152 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 31.75 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 31.75 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C49678"
-			(at 31.75 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "31c3ef37-e139-467d-9652-e12e53c209d7")
-		)
-		(pin "2"
-			(uuid "83725b51-faf0-4248-9c3d-c5d307134ac1")
-		)
-		(instances
-			(project ""
-				(path "/65068a32-f105-4204-b50e-234054c5a6d0/5e494e8c-589b-4110-874f-f4b8b9240b86"
-					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -8488,7 +8476,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 45.72 143.51 90)
+		(at 45.72 132.08 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8497,7 +8485,7 @@
 		(fields_autoplaced yes)
 		(uuid "b8e53ce7-0033-44bf-8f92-0a44d3bdcf1e")
 		(property "Reference" "R3"
-			(at 45.72 137.16 90)
+			(at 45.72 125.73 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8505,7 +8493,7 @@
 			)
 		)
 		(property "Value" "1kr"
-			(at 45.72 139.7 90)
+			(at 45.72 128.27 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8513,7 +8501,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 45.72 145.288 90)
+			(at 45.72 133.858 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8522,7 +8510,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 45.72 143.51 0)
+			(at 45.72 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8531,7 +8519,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 45.72 143.51 0)
+			(at 45.72 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8540,7 +8528,7 @@
 			)
 		)
 		(property "LCSC" "C95781"
-			(at 45.72 143.51 90)
+			(at 45.72 132.08 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8770,72 +8758,6 @@
 			(project "cameraBoardSchematic"
 				(path "/65068a32-f105-4204-b50e-234054c5a6d0/5e494e8c-589b-4110-874f-f4b8b9240b86"
 					(reference "C4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 29.21 172.72 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "bfb0f83d-73fe-47b7-9dc7-79ef40d9e00d")
-		(property "Reference" "#PWR06"
-			(at 33.02 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 25.4 172.7199 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 29.21 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 29.21 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 29.21 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "84fd6370-7024-4d23-ad1a-8f6177d70a64")
-		)
-		(instances
-			(project ""
-				(path "/65068a32-f105-4204-b50e-234054c5a6d0/5e494e8c-589b-4110-874f-f4b8b9240b86"
-					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -9931,6 +9853,72 @@
 			(project ""
 				(path "/65068a32-f105-4204-b50e-234054c5a6d0/5e494e8c-589b-4110-874f-f4b8b9240b86"
 					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 39.37 167.64 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f901af66-b4d2-4fff-b8df-99e0e76d10fb")
+		(property "Reference" "#PWR052"
+			(at 33.02 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 37.084 168.148 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 39.37 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 39.37 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 39.37 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e8b7f2ca-703e-49df-9593-61fae2a27332")
+		)
+		(instances
+			(project "CameraBoard"
+				(path "/65068a32-f105-4204-b50e-234054c5a6d0/5e494e8c-589b-4110-874f-f4b8b9240b86"
+					(reference "#PWR052")
 					(unit 1)
 				)
 			)

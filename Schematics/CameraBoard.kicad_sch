@@ -505,9 +505,9 @@
 				(justify left)
 			)
 		)
-		(pin "CAM_UART_TX" input
-			(at 191.77 64.77 180)
-			(uuid "8575c217-63ee-4f4e-bfd5-df22148f9b27")
+		(pin "Cam5v" input
+			(at 191.77 60.96 180)
+			(uuid "31ecfad8-5b0c-44d4-8c2b-f2d08e55741f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -515,9 +515,9 @@
 				(justify left)
 			)
 		)
-		(pin "Cam5v" input
-			(at 191.77 60.96 180)
-			(uuid "31ecfad8-5b0c-44d4-8c2b-f2d08e55741f")
+		(pin "CAM_UART_RX" input
+			(at 191.77 64.77 180)
+			(uuid "fef7fe80-ac64-4dba-961b-ce02073a25bf")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -823,9 +823,9 @@
 				(justify left)
 			)
 		)
-		(pin "CAM_UART_TX" input
-			(at 191.77 86.36 180)
-			(uuid "5dbc00f3-d17e-4f62-9e37-bc590c60c5c2")
+		(pin "Cam5v" input
+			(at 191.77 82.55 180)
+			(uuid "b253f57e-ca6a-40d9-82dc-f12d6bdf192d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -833,9 +833,9 @@
 				(justify left)
 			)
 		)
-		(pin "Cam5v" input
-			(at 191.77 82.55 180)
-			(uuid "b253f57e-ca6a-40d9-82dc-f12d6bdf192d")
+		(pin "CAM_UART_RX" input
+			(at 191.77 86.36 180)
+			(uuid "448a5360-b76a-4856-804b-422ad944efbf")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -977,9 +977,9 @@
 				(justify left)
 			)
 		)
-		(pin "CAM_UART_TX" input
-			(at 191.77 105.41 180)
-			(uuid "8ec1f38f-c35d-46bf-bda8-75a8749c75fb")
+		(pin "Cam5v" input
+			(at 191.77 107.95 180)
+			(uuid "b9e40dd2-bbf1-4b47-bd8c-b92cea1c2bfa")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -987,9 +987,9 @@
 				(justify left)
 			)
 		)
-		(pin "Cam5v" input
-			(at 191.77 107.95 180)
-			(uuid "b9e40dd2-bbf1-4b47-bd8c-b92cea1c2bfa")
+		(pin "CAM_UART_RX" input
+			(at 191.77 105.41 180)
+			(uuid "4ff55111-9956-4df7-b80c-a52739e524ca")
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -1607,7 +1607,7 @@
 				)
 			)
 		)
-		(property "Description" "Solder Jumper, 2-pole, open"
+		(property "Description" ""
 			(at 137.16 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -1700,7 +1700,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" ""
 			(at 173.99 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -1803,7 +1803,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 77.47 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -1918,7 +1918,7 @@
 				)
 			)
 		)
-		(property "Description" "CAN Bus Transceivers, 3.3V, 1Mbps, Low-Power capabilities, SOIC-8"
+		(property "Description" ""
 			(at 116.84 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -2208,7 +2208,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 132.08 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -2230,7 +2230,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C114245"
+		(property "LCSC" " C17437"
 			(at 132.08 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -2323,7 +2323,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" ""
 			(at 173.99 113.03 0)
 			(hide yes)
 			(show_name no)

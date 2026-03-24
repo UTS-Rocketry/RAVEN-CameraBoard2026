@@ -1889,7 +1889,7 @@
 				)
 			)
 		)
-		(property "Description" "USB 2.0-only 16P Type-C Receptacle connector"
+		(property "Description" ""
 			(at 125.73 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -2192,7 +2192,7 @@
 				)
 			)
 		)
-		(property "Description" "Semtech SRV05-4.TCT, Uni-Directional TVS Diode Array, 300W, 6-Pin SOT-23"
+		(property "Description" ""
 			(at 180.34 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -2201,7 +2201,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
 			)
 		)
 		(property "MANUFACTURER_NAME" "SEMTECH"
@@ -2621,7 +2620,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 193.04 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -2803,7 +2802,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 204.47 76.2 0)
 			(hide yes)
 			(show_name no)

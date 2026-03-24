@@ -1838,7 +1838,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" ""
 			(at 156.21 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -2009,8 +2009,8 @@
 				)
 			)
 		)
-		(property "Description" "Schottky diode"
-			(at 74.93 102.87 0)
+		(property "Description" ""
+			(at 74.93 102.87 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2190,7 +2190,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" ""
 			(at 139.7 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -3174,7 +3174,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" ""
 			(at 156.21 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -3345,7 +3345,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 172.72 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -3433,7 +3433,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C2932476"
+		(property "LCSC" "C15850"
 			(at 172.72 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -3526,8 +3526,8 @@
 				)
 			)
 		)
-		(property "Description" "Schottky diode"
-			(at 92.71 102.87 0)
+		(property "Description" ""
+			(at 92.71 102.87 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3708,7 +3708,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" ""
 			(at 104.14 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -4203,7 +4203,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 118.11 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -4384,7 +4384,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" ""
 			(at 139.7 55.88 0)
 			(hide yes)
 			(show_name no)

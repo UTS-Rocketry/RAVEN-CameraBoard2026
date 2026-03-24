@@ -4144,6 +4144,12 @@
 		(uuid "311d2856-6818-428d-ba32-152ca0e390ae")
 	)
 	(junction
+		(at 165.1 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3240eb7d-b6b4-40c7-9b4f-a88a147f093f")
+	)
+	(junction
 		(at 160.02 24.13)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4162,28 +4168,22 @@
 		(uuid "4200a2d0-b80c-4292-b7b8-e24717d6d4b6")
 	)
 	(junction
-		(at 163.83 58.42)
+		(at 252.73 29.21)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "5656f390-c44b-4d86-9469-6622a8993c96")
+		(uuid "6eadc37f-5a7d-4f90-a7c5-160eaa54b087")
 	)
 	(junction
-		(at 179.07 58.42)
+		(at 177.8 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "5ced11d3-5bfb-4e14-a6b0-db80b4649825")
+		(uuid "743f4f4b-ae32-4e99-b920-44b38827dd5d")
 	)
 	(junction
 		(at 218.44 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "818a48df-2418-414d-961e-10203440be2d")
-	)
-	(junction
-		(at 179.07 66.04)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "857f3e83-776f-41d5-9c4c-3d41b551e472")
 	)
 	(junction
 		(at 139.7 24.13)
@@ -4202,6 +4202,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c5154f1b-b0e0-4d81-8968-86631781230e")
+	)
+	(junction
+		(at 177.8 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c97f4c44-59e3-4917-af7a-133b431f8d1c")
 	)
 	(junction
 		(at 163.83 38.1)
@@ -4579,6 +4585,16 @@
 	)
 	(wire
 		(pts
+			(xy 177.8 58.42) (xy 186.69 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ae2609b-abe8-4cb5-b311-7546e55d92ad")
+	)
+	(wire
+		(pts
 			(xy 121.92 38.1) (xy 135.89 38.1)
 		)
 		(stroke
@@ -4656,6 +4672,16 @@
 			(type default)
 		)
 		(uuid "3345dbf5-b05f-4708-ab41-b08323767b0e")
+	)
+	(wire
+		(pts
+			(xy 177.8 66.04) (xy 186.69 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3408e93e-a11d-491f-b0d5-1eabd594c65d")
 	)
 	(wire
 		(pts
@@ -4746,16 +4772,6 @@
 			(type default)
 		)
 		(uuid "545b166d-19c9-4344-ae3e-13534a7551d3")
-	)
-	(wire
-		(pts
-			(xy 163.83 66.04) (xy 179.07 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "572afb6d-75a9-4162-a2b9-96054141ac03")
 	)
 	(wire
 		(pts
@@ -4889,6 +4905,16 @@
 	)
 	(wire
 		(pts
+			(xy 257.81 29.21) (xy 252.73 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70d4dd23-3363-40da-aada-bf2270ed09b2")
+	)
+	(wire
+		(pts
 			(xy 149.86 38.1) (xy 149.86 71.12)
 		)
 		(stroke
@@ -4896,6 +4922,16 @@
 			(type default)
 		)
 		(uuid "74da39cb-d846-45f9-8ebc-6599274e7255")
+	)
+	(wire
+		(pts
+			(xy 270.51 36.83) (xy 252.73 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7536a535-3a3e-4c49-bac1-90d4e9ebdde1")
 	)
 	(wire
 		(pts
@@ -4979,6 +5015,16 @@
 	)
 	(wire
 		(pts
+			(xy 165.1 66.04) (xy 177.8 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8198df75-6337-4f51-9f72-b1b4cabadb37")
+	)
+	(wire
+		(pts
 			(xy 167.64 152.4) (xy 171.45 152.4)
 		)
 		(stroke
@@ -4986,16 +5032,6 @@
 			(type default)
 		)
 		(uuid "83065d36-8aeb-420c-9457-e4937294f268")
-	)
-	(wire
-		(pts
-			(xy 163.83 58.42) (xy 179.07 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "83959aff-f437-4a45-bcdc-58d0e211a762")
 	)
 	(wire
 		(pts
@@ -5019,23 +5055,13 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 58.42) (xy 179.07 58.42)
+			(xy 237.49 29.21) (xy 237.49 34.29)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8c378803-4396-4fac-8f81-77c528d286de")
-	)
-	(wire
-		(pts
-			(xy 186.69 66.04) (xy 179.07 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "956d0ebb-f20a-4f83-8e88-0dbf3c75eebe")
+		(uuid "8a18ad52-cc54-4912-8a65-b134f7b0bf53")
 	)
 	(wire
 		(pts
@@ -5066,16 +5092,6 @@
 			(type default)
 		)
 		(uuid "98a40f31-786e-471f-9f89-8095735e1615")
-	)
-	(wire
-		(pts
-			(xy 154.94 58.42) (xy 163.83 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9a6760b9-e407-47a3-88e6-7b68ed4ca20d")
 	)
 	(wire
 		(pts
@@ -5139,6 +5155,16 @@
 	)
 	(wire
 		(pts
+			(xy 252.73 29.21) (xy 237.49 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aab07714-f414-4ec8-9abf-5d4ea5f5a21e")
+	)
+	(wire
+		(pts
 			(xy 39.37 167.64) (xy 48.26 167.64)
 		)
 		(stroke
@@ -5186,6 +5212,16 @@
 			(type default)
 		)
 		(uuid "c00c2658-d0c7-4d75-b0e1-c8f2e3f29435")
+	)
+	(wire
+		(pts
+			(xy 165.1 58.42) (xy 177.8 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c07339cd-16d4-4465-aec9-1341582ea84c")
 	)
 	(wire
 		(pts
@@ -5239,16 +5275,6 @@
 	)
 	(wire
 		(pts
-			(xy 237.49 31.75) (xy 237.49 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d877e6bd-4a1e-4382-8972-bd073bb42fb8")
-	)
-	(wire
-		(pts
 			(xy 69.85 149.86) (xy 69.85 157.48)
 		)
 		(stroke
@@ -5256,6 +5282,16 @@
 			(type default)
 		)
 		(uuid "d89eb102-5051-4951-83fe-3710c2d98a5c")
+	)
+	(wire
+		(pts
+			(xy 154.94 58.42) (xy 165.1 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db3cb2a0-0658-4d21-b096-cc642002fa24")
 	)
 	(wire
 		(pts
@@ -6091,7 +6127,7 @@
 				)
 			)
 		)
-		(property "Description" "Push button switch, generic, symbol, four pins"
+		(property "Description" ""
 			(at 38.1 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -6278,7 +6314,7 @@
 				)
 			)
 		)
-		(property "Description" "Push button switch, generic, symbol, four pins"
+		(property "Description" ""
 			(at 38.1 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -6467,7 +6503,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 135.89 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -6648,7 +6684,7 @@
 				)
 			)
 		)
-		(property "Description" "Light emitting diode"
+		(property "Description" ""
 			(at 35.56 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -6702,6 +6738,84 @@
 			(project "CameraBoard"
 				(path "/65068a32-f105-4204-b50e-234054c5a6d0/5e494e8c-589b-4110-874f-f4b8b9240b86"
 					(reference "PowerLED1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 270.51 36.83 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3d74236b-0f5f-4350-ab52-4b50ec13c5dc")
+		(property "Reference" "#PWR062"
+			(at 270.51 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 270.51 41.91 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 270.51 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 270.51 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 270.51 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4de7e892-fde1-484f-9569-0f10c8ef6f7b")
+		)
+		(instances
+			(project "CameraBoard"
+				(path "/65068a32-f105-4204-b50e-234054c5a6d0/5e494e8c-589b-4110-874f-f4b8b9240b86"
+					(reference "#PWR062")
 					(unit 1)
 				)
 			)
@@ -6944,7 +7058,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 163.83 62.23 0)
+		(at 177.8 62.23 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6955,7 +7069,7 @@
 		(fields_autoplaced yes)
 		(uuid "453645c1-a2b0-4384-914e-870817d0c796")
 		(property "Reference" "C12"
-			(at 167.64 60.9599 0)
+			(at 181.61 60.9599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6966,7 +7080,7 @@
 			)
 		)
 		(property "Value" "1uf"
-			(at 167.64 63.4999 0)
+			(at 181.61 63.4999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6977,7 +7091,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 164.7952 66.04 0)
+			(at 178.7652 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6988,7 +7102,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 163.83 62.23 0)
+			(at 177.8 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6998,8 +7112,8 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
-			(at 163.83 62.23 0)
+		(property "Description" ""
+			(at 177.8 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7010,7 +7124,7 @@
 			)
 		)
 		(property "LCSC" "C28323"
-			(at 163.83 62.23 0)
+			(at 177.8 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7021,7 +7135,7 @@
 			)
 		)
 		(property "DESCRIPTION" ""
-			(at 163.83 62.23 0)
+			(at 177.8 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7100,7 +7214,7 @@
 				)
 			)
 		)
-		(property "Description" "Four pin crystal, GND on pins 2 and 4"
+		(property "Description" ""
 			(at 224.79 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -7221,7 +7335,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 128.27 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -7481,8 +7595,8 @@
 				(justify left top)
 			)
 		)
-		(property "Description" "RGB LED with integrated controller, 5mm/8mm LED package"
-			(at 10.922 151.638 0)
+		(property "Description" ""
+			(at 48.26 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7699,8 +7813,8 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 38.1 53.34 0)
+		(property "Description" ""
+			(at 38.1 53.34 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8268,8 +8382,8 @@
 				)
 			)
 		)
-		(property "Description" "Ferrite bead"
-			(at 146.05 24.13 0)
+		(property "Description" ""
+			(at 146.05 24.13 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8451,7 +8565,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 163.83 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -8634,7 +8748,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 50.8 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -8817,7 +8931,7 @@
 				)
 			)
 		)
-		(property "Description" "ACTEL FLASH PRO 3/4, JTAG, IDC10 Pinheader Connector"
+		(property "Description" ""
 			(at 240.03 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -8828,7 +8942,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C588426"
+		(property "LCSC" "C22438120"
 			(at 240.03 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -8942,7 +9056,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 153.67 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -9124,7 +9238,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 102.87 156.21 0)
 			(hide yes)
 			(show_name no)
@@ -9135,7 +9249,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C19110"
+		(property "LCSC" "C377773"
 			(at 102.87 156.21 0)
 			(hide yes)
 			(show_name no)
@@ -9307,7 +9421,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 128.27 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -9486,8 +9600,8 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 45.72 132.08 0)
+		(property "Description" ""
+			(at 45.72 132.08 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9497,7 +9611,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C95781"
+		(property "LCSC" "C17513"
 			(at 45.72 132.08 90)
 			(hide yes)
 			(show_name no)
@@ -9747,7 +9861,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 115.57 156.21 0)
 			(hide yes)
 			(show_name no)
@@ -9758,7 +9872,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C19110"
+		(property "LCSC" "C377773"
 			(at 115.57 156.21 0)
 			(hide yes)
 			(show_name no)
@@ -9797,7 +9911,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 179.07 62.23 0)
+		(at 165.1 62.23 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9808,7 +9922,7 @@
 		(fields_autoplaced yes)
 		(uuid "bffe16ff-701d-4a1e-8e56-b14f6b5c4caa")
 		(property "Reference" "C13"
-			(at 182.88 60.9599 0)
+			(at 168.91 60.9599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9819,7 +9933,7 @@
 			)
 		)
 		(property "Value" "100nf"
-			(at 182.88 63.4999 0)
+			(at 168.91 63.4999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9830,7 +9944,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 180.0352 66.04 0)
+			(at 166.0652 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9841,7 +9955,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 179.07 62.23 0)
+			(at 165.1 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9851,8 +9965,8 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
-			(at 179.07 62.23 0)
+		(property "Description" ""
+			(at 165.1 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9863,7 +9977,7 @@
 			)
 		)
 		(property "LCSC" "C49678"
-			(at 179.07 62.23 0)
+			(at 165.1 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9874,7 +9988,7 @@
 			)
 		)
 		(property "DESCRIPTION" ""
-			(at 179.07 62.23 0)
+			(at 165.1 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9952,7 +10066,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 139.7 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -10056,7 +10170,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 163.83 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -10161,7 +10275,7 @@
 				)
 			)
 		)
-		(property "Description" "STMicroelectronics Arm Cortex-M4 MCU, 1024KB flash, 192KB RAM, 168 MHz, 1.8-3.6V, 51 GPIO, LQFP64"
+		(property "Description" ""
 			(at 147.32 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -10607,7 +10721,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 121.92 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -10618,7 +10732,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C98192"
+		(property "LCSC" "C1779"
 			(at 121.92 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -10710,7 +10824,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 231.14 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -10732,7 +10846,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C53084486"
+		(property "LCSC" "C113825"
 			(at 231.14 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -10903,7 +11017,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 218.44 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -10925,7 +11039,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C53084486"
+		(property "LCSC" "C113825"
 			(at 218.44 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -10964,7 +11078,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 237.49 31.75 0)
+		(at 257.81 29.21 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10975,7 +11089,7 @@
 		(fields_autoplaced yes)
 		(uuid "e30542b4-bac8-4e90-af9f-263594ab5d6b")
 		(property "Reference" "#PWR031"
-			(at 237.49 35.56 0)
+			(at 257.81 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10986,17 +11100,18 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 237.49 26.67 0)
+			(at 260.35 27.9399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 237.49 31.75 0)
+			(at 257.81 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11007,7 +11122,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 237.49 31.75 0)
+			(at 257.81 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11018,7 +11133,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 237.49 31.75 0)
+			(at 257.81 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11035,6 +11150,110 @@
 			(project "CameraBoard"
 				(path "/65068a32-f105-4204-b50e-234054c5a6d0/5e494e8c-589b-4110-874f-f4b8b9240b86"
 					(reference "#PWR031")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 252.73 33.02 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ec2b1ab0-b453-4b5e-929f-56b04eab47c5")
+		(property "Reference" "C32"
+			(at 256.54 31.7499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nf"
+			(at 256.54 34.2899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 253.6952 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 252.73 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 252.73 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C49678"
+			(at 252.73 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DESCRIPTION" ""
+			(at 252.73 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "23e9263d-ae0b-4827-ac8b-cc42743c3e86")
+		)
+		(pin "2"
+			(uuid "623e2081-27b0-4c39-9704-f29ab8f4b198")
+		)
+		(instances
+			(project "CameraBoard"
+				(path "/65068a32-f105-4204-b50e-234054c5a6d0/5e494e8c-589b-4110-874f-f4b8b9240b86"
+					(reference "C32")
 					(unit 1)
 				)
 			)
@@ -11094,8 +11313,8 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 38.1 109.22 0)
+		(property "Description" ""
+			(at 38.1 109.22 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11105,7 +11324,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C96346"
+		(property "LCSC" "C149504"
 			(at 38.1 109.22 90)
 			(hide yes)
 			(show_name no)

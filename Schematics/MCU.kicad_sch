@@ -7781,7 +7781,7 @@
 				)
 			)
 		)
-		(property "Value" "10kr"
+		(property "Value" "10k"
 			(at 38.1 49.53 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11281,7 +11281,7 @@
 				)
 			)
 		)
-		(property "Value" "100kr"
+		(property "Value" "10k"
 			(at 38.1 105.41 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11324,7 +11324,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C149504"
+		(property "LCSC" "C84376"
 			(at 38.1 109.22 90)
 			(hide yes)
 			(show_name no)
